@@ -1,0 +1,68 @@
+html, body, h1, h2, h3, p, ul, ol, li, a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(145, 216, 244);
+}
+
+#header{
+    background-color: orange;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+#header img{
+    width: 20%;
+}
+
+#header .nav{
+   width: 500px;
+   margin: 0 auto;
+   padding:  20px 0px 40px 0px;
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+#main-content{
+    padding: 20px;
+    /* width: 60%; */
+    margin:  30px;
+}
+
+
+#pics img{
+    margin-top: 20px;
+    width: 33%;
+    float: left;
+    padding: 1px;
+    margin-bottom: 20px;
+
+}
+
+ol{
+    padding: 0 0 0 50px;
+}
+
+ol li{
+    font-size: 14px;
+    margin: 0 15px 0 15px;
+
+}
+
+
+#footer{
+    padding: 30px 10px 30px 10px; /* TRBL */
+    text-align: center;
+    background-color: orange;
+
+}
+
